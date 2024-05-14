@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val edt = findViewById<EditText>(R.id.edt_nome)
         val btnSaudar = findViewById<Button>(R.id.btn_saudar)
         btnSaudar.setOnClickListener(){
-            Toast.makeText(this, "Seja bem vindo ${edt.text}", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Bem vindo ${edt.text}", Toast.LENGTH_SHORT).show()
         }
     }
 }
